@@ -1,27 +1,39 @@
-# JoaoStockAngular
+# Joao Angular ecommerce mini hat store
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+This repository provides all dependencies in order to run the node's second project from the [MEAN/MERN Stack Developer Path](https://confluence.itc.sap.com/pages/viewpage.action?pageId=112088733). The project description can be found [here](https://confluence.itc.sap.com/display/SAPCX/Module+3+%3A%3A+Angular).
 
-## Development server
+## Execution
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### 0. Clone repo to your local
 
-## Code scaffolding
+On the folder's directory run:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+git clone https://github.wdf.sap.corp/i343878/joao-angular-store.git
+```
 
-## Build
+#### 1. Install the project dependencies
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+On the folder's directory run:
 
-## Running unit tests
+```
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+or
 
-## Running end-to-end tests
+```
+npm i
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+#### 2. Run the project
 
-## Further help
+On the folder's directory run:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+ng serve
+```
+
+## Routes
+
+One only route is provided by this project, [https://localhost:4200/](https://localhost:4200/).
